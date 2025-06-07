@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="500" prefWidth="1000" styleClass="main-pane" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.focus.HelloController">
+
+    <Label fx:id="timeLabel" alignment="CENTER" styleClass="timer-label" text="00:00" />
+
+    <Button fx:id="startButton" onAction="#onStartButtonClick" text="Начать" />
+
+    <ListView fx:id="taskList" prefHeight="292.0" prefWidth="1000.0" styleClass="task-list" />
+
+    <TextField fx:id="textField" />
+   <Button mnemonicParsing="false" onAction="#onAddButtonClick" text="Add" />
+
+</VBox>
